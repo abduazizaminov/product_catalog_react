@@ -1,0 +1,67 @@
+.notch {
+  @apply bg-[#E0E3EE] rounded-b-[10px] w-full h-[40px]
+}
+.basket {
+  @apply w-[30px] hover:opacity-70 duration-200
+}
+.have-products {
+  @apply w-2 h-2 rounded-full bg-red-600 absolute right-[25px] top-[10px]
+}
+.layout {
+  @apply max-w-[1200px] w-full m-auto px-[20px]
+}
+.nav-item {
+  @apply p-[7px] text-[#2D3B87] text-[16px] rounded-[10px] cursor-pointer font-medium hover:opacity-70 duration-200 flex justify-center items-center mr-[20px]
+}
+.no-product {
+  @apply text-3xl text-secondaryColor font-medium h-full flex justify-center items-center
+}
+.filter-block {
+  @apply border-[1px] border-solid  border-edge rounded-[20px] p-5 h-fit
+}
+.filter-title {
+  @apply text-main font-medium text-lg w-full mb-5
+}
+.filter-block h5 {
+  @apply text-secondaryColor text-sm mb-1
+}
+.filter-block label {
+  @apply text-secondaryColor text-base mb-1 flex
+}
+.priceInput {
+  @apply border-none rounded-[10px] bg-bgColor py-1 px-3 outline-none text-sm text-main w-full
+}
+.button {
+  @apply w-full text-sm border-none mt-5 border-[1px] rounded-[10px] py-[17px]  text-center text-main font-medium hover:opacity-70 cursor-pointer duration-200
+}
+.card-main {
+  @apply border-[1px] border-solid  border-edge rounded-[20px] mb-10
+}
+
+.product-info {
+  @apply p-[20px] flex lg:flex-row flex-col items-center flex-grow
+}
+.product-img {
+  @apply block object-contain max-w-[256px] max-h-[256px] h-full w-full rounded-[10px] mr-5
+}
+.name {
+  @apply text-base font-semibold text-main mb-4
+}
+.location {
+  @apply border-none rounded-[5px] px-2 py-1 bg-bgColor flex justify-center items-center mb-[15px] w-fit
+}
+.product-type {
+  @apply border-none rounded-[10px] p-2 bg-bgColor flex justify-center items-center mb-[15px] text-sm w-fit
+}
+.actions {
+  @apply lg:border-l-[1px] border-t-[1px] border-solid rounded-[20px] p-5 lg:w-1/4 w-full flex-none flex flex-col justify-between
+}
+.count {
+  @apply flex justify-between mt-5 text-sm
+}
+.price {
+  @apply flex justify-between mt-[10px] text-sm
+}
+.button {
+  @apply w-full text-sm border-none border-[1px] rounded-[10px] py-[17px]  text-center text-main font-medium hover:opacity-70 cursor-pointer duration-200
+}
